@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+body{
+    background-color: aqua;
+}
+.userTable{
+    width: 60%;
+    background-color: #db5252;
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+.userTable table{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.userTable table thead th{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+.userTable table tbody td{
+    padding: 10px;
+    text-align: center;
+}
+.actionButton button{
+    border: 0;
+    outline: 0;
+    background: red;
+    padding: 6px 8px ;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.actionButton a{
+    text-decoration: none;
+    background: green;
+    padding: 4px 8px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+    margin: 0 4px;
+}
+.addButton{
+    text-decoration: none;
+    background-color: purple;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px;
+}
+.addUser{
+    width: 40%;
+    background-color: purple;
+    border-radius: 5px;
+    margin: 40px auto;
+    padding: 50px;
+}
+.addUserForm{
+    margin-top: 20px;
+}
+.addUserForm .inputGroup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.addUserForm .inputGroup label{
+    margin-bottom: 5px;
+}  
+.addUserForm .inputGroup input{
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    padding: 8px;
+}
+.addUserForm .inputGroup button{
+    border: 0;
+    outline: 0;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+    background: red;
+    padding: 10px;
+}
